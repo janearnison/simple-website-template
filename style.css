@@ -52,15 +52,6 @@ h4 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
 h5 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 h6 { font-size: 1.4rem; line-height: 1.6;  letter-spacing: 0; }
 
-/**
- * Paragraphs
- */
-p {
-  margin: 0 auto 1.5em auto; /* bottom margin for paragraphs */
-}
-p + p {
-
-}
 
 /**
  * Quotes & Blockquotes
@@ -102,8 +93,8 @@ body {
 }
 header, #content, footer { 
   background: rgba(0,0,0,.8); 
-  padding:25px;
-  color:#FFFFFF; 
+  padding:28px;
+  color:#ffffff; 
 }
 
 /* Menu Links */
