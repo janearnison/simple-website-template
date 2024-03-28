@@ -34,7 +34,7 @@ var segmentCount = 360;
 var radius = 300;
 
 function setup() {
-  createCanvas(700, 700);
+  createCanvas(400, 400);
   noStroke();
 }
 
