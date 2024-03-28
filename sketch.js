@@ -30,7 +30,7 @@
  */
 'use strict';
 
-var segmentCount = 360;
+var segmentCount = 250;
 var radius = 300;
 
 function setup() {
@@ -39,8 +39,8 @@ function setup() {
 }
 
 function draw() {
-  colorMode(HSB, 360, width, height);
-  background(0, 0, height);
+  colorMode(HSB, 0, width, height);
+  background(360, 0, height);
 
   var angleStep = 360 / segmentCount;
 
