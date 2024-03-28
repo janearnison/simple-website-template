@@ -34,13 +34,13 @@ var segmentCount = 360;
 var radius = 300;
 
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(700, 700);
   noStroke();
 }
 
 function draw() {
   colorMode(HSB, 360, width, height);
-  background(360, 0, height);
+  background(0, 0, height);
 
   var angleStep = 360 / segmentCount;
 
