@@ -87,10 +87,7 @@ html {
   background:url(background.png) center center no-repeat fixed;
   background-size:cover;
 }
-body {
-  max-width:800px;
-  margin:25px auto;
-}
+
 header, #content, footer { 
   background: rgba(0,0,0,.8); 
   padding:28px;
